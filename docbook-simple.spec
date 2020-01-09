@@ -1,6 +1,6 @@
 Name: docbook-simple
 Version: 1.1
-Release: 11%{?dist}
+Release: 12%{?dist}
 Group: Applications/Text
 Summary: Simplified DocBook is a small subset of the DocBook XML DTD
 License: Freely redistributable without restriction
@@ -158,6 +158,9 @@ if [ "$1" = 0 ]; then
 fi
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.1-12
+- Mass rebuild 2013-12-27
+
 * Tue Nov 27 2012 Ondrej Vasik <ovasik@redhat.com> 1.1-11
 - avoid using Fedora in the README file (portability)
 
